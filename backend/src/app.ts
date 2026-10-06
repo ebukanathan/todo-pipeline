@@ -1,7 +1,6 @@
 import cors from "cors";
 import express from "express";
 import { prisma } from "./lib/prisma";
-import app from "next/app";
 
 const App = express();
 
